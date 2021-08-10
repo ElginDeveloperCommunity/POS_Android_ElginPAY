@@ -1,0 +1,10 @@
+br.com.setis.interfaceautomacao
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+layout activity_sender
+string lib_name
+string lib_version
+string senderactivity
+string senderservice
+style AppBaseTheme
+style AppTheme

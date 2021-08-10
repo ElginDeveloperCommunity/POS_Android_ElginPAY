@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#23355f"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/btnVendaDebito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT01 - Venda débito"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnVendaCredito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT02 - Venda crédito"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnCancelamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT03 - Cancelamento"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnTransacaoPendente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT04 - Simular transacao pendente"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnReimpressao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:text="CT05 - Reimpressão" />
+
+    <Button
+        android:id="@+id/btnADM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:text="CT06 - Administrativa" />
+
+    <Button
+        android:id="@+id/btnADMInstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:text="CT07 - ADM - Instalação PDC" />
+
+    <Button
+        android:id="@+id/btnADMManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/elgin_button"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        android:textColor="#FFFFFF"
+        android:text="CT08 - ADM - Manutenção PDC" />
+
+    <Button
+        android:id="@+id/btnADMConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CT09 - ADM - Configuração PDC"
+        android:textAlignment="textStart"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/elgin_button"
+        />
+
+</LinearLayout>
