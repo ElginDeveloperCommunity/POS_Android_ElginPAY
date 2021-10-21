@@ -1,2 +1,2 @@
-rootProject.name='Utility Elgin Pay'
-include ':app', ':InterfaceAutomacao-v2.0.0.6', ':e1-v1.0.3-release', ':cloudpossdk-s-1.0.2'
+rootProject.name = "ElginPay_Exemplo"
+include ':app'

@@ -1,2 +1,0 @@
-configurations.maybeCreate("default")
-artifacts.add("default", file('e1-v1.0.3-release.aar'))
