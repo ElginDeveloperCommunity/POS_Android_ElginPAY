@@ -18,4 +18,10 @@ Todas as funcionalidades do pacote e os demais exemplos estão disponíveis nos 
 
 ### Exemplos
 =================  
-- [Java](https://github.com/ElginDeveloperCommunity/SmartPOS/tree/master/Exemplo/Java)
+- [Delphi](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Delphi)
+- [Flutter](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Flutter)
+- [Java](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Java)
+- [Kotlin](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Kotlin)
+- [ReactNative](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/ReactNative)
+- [XamarinAndroid](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/XamarinAndroid)
+- [XamarinForms](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/XamarinForms)
