@@ -18,6 +18,8 @@ Todas as funcionalidades do pacote e os demais exemplos estão disponíveis nos 
 
 ### Exemplos
 =================  
+Para que os exemplos possam funcionar corretamente, configurar o idioma do smartPOS para Português.<br>
+A seguir os links para os exemplos
 - [Delphi](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Delphi)
 - [Flutter](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Flutter)
 - [Java](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Exemplo/Java)
