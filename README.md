@@ -14,7 +14,8 @@ Todas as funcionalidades do pacote e os demais exemplos estão disponíveis nos 
 
 ### Documentação
 =================  
-[Documentação](https://elgindevelopercommunity.github.io/group__g31.html)
+[Help das Funções](https://elgindevelopercommunity.github.io/group__g31.html)
+[Documentação](https://github.com/ElginDeveloperCommunity/POS_Android_ElginPAY/tree/master/Documenta%C3%A7%C3%A3o)
 
 ### Exemplos
 =================  
