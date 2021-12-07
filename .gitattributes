@@ -1,1 +1,2 @@
 *.rar filter=lfs diff=lfs merge=lfs -text
+E1_Delphi_Smart-POS.zip filter=lfs diff=lfs merge=lfs -text
