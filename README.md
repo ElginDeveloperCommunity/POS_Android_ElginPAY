@@ -3,7 +3,7 @@
 Repositório para o equipamento POS Elgin SmartPOS.
 
 ## Sobre o SmartPOS:
-O SmartPOS Elgin é a o POS do Desenvolvedor. Ele permite que o seu aplicativo comercial rode em uma plataforma Android segura, em dispositivo com certificação PCI que conta com impressora, leitor de cartões, NFC e scanner.
+O SmartPOS Elgin é o POS do Desenvolvedor. Ele permite que o seu aplicativo comercial rode em uma plataforma Android segura, em dispositivo com certificação PCI que conta com impressora, leitor de cartões, NFC e scanner.
 
 ### Por onde começar?
 =================  
