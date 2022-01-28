@@ -3,7 +3,7 @@
 Repositório para o equipamento POS Elgin SmartPOS.
 
 ## Sobre o SmartPOS:
-A Elgin i9 é uma impressora de recibo voltada para impressão de documentos não fiscais, tais como DANFE NFCe, Extrato CFe entre outros.
+O SmartPOS Elgin é a o POS do Desenvolvedor. Ele permite que o seu aplicativo comercial rode em uma plataforma Android segura, em dispositivo com certificação PCI que conta com impressora, leitor de cartões, NFC e scanner.
 
 ### Por onde começar?
 =================  
