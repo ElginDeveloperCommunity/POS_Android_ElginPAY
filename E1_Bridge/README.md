@@ -12,13 +12,13 @@ A E1_Brigde é a biblioteca Elgin desenvolvida para possibilitar a comunicação
 ### Por onde começar?
 =================  
 Baixe a E1_Bridge para Windows aqui e para Android aqui.
-Em seguida, observe os pré requisitos de ambiente e configurações iniciais[aqui](https://elgindevelopercommunity.github.io/group__g12.html).  
+Em seguida, observe os pré requisitos de ambiente e configurações iniciais [aqui](https://elgindevelopercommunity.github.io/group__g12.html).  
 
 Todas as funcionalidades do pacote e os demais exemplos estão disponíveis nos links abaixo: 
 
 ### Documentação
 =================  
-[Funções de Retorno Direto](https://elgindevelopercommunity.github.io/group__g51.html)
-[Funções de Retorno por Referência](https://elgindevelopercommunity.github.io/group__g52.html)
-[Funções de Retorno por Arquivo](https://elgindevelopercommunity.github.io/group__g53.html)
-[Detalhes do JSON de Retorno] (https://elgindevelopercommunity.github.io/group__g120.html)
+[Funções de Retorno Direto](https://elgindevelopercommunity.github.io/group__g51.html)  
+[Funções de Retorno por Referência](https://elgindevelopercommunity.github.io/group__g52.html)  
+[Funções de Retorno por Arquivo](https://elgindevelopercommunity.github.io/group__g53.html)  
+[Detalhes do JSON de Retorno](https://elgindevelopercommunity.github.io/group__g120.html)  
