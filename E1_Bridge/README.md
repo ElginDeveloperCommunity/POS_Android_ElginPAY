@@ -3,7 +3,7 @@
 Repositório para a biblioteca e documentações da biblioteca E1_Bridge.
 
 ## Sobre o SmartPOS:
-O SmartPOS Elgin é a o POS do Desenvolvedor. Ele permite que o seu aplicativo comercial rode em uma plataforma Android segura, em dispositivo com certificação PCI que conta com impressora, leitor de cartões, NFC e scanner.
+O SmartPOS Elgin é o POS do Desenvolvedor. Ele permite que o seu aplicativo comercial rode em uma plataforma Android segura, em dispositivo com certificação PCI que conta com impressora, leitor de cartões, NFC e scanner.
 
 ## Sobre a E1_Bridge:
 A E1_Brigde é a biblioteca Elgin desenvolvida para possibilitar a comunicação entre o PDV Windows/Android e o SmartPOS ElginPay. Isso pode ser feito sem codificar nada no Linux (na integração Windows-SmartPOS) ou sem implementar funções de pagamento (na integração Android-SmartPOS). Além disso, todo o processo é realizado pelo PDV, com zero interação manual no processo de pagamento (eliminando a ocorrência de erros operacionais) e devolvendo em tempo real os dados da transação.
