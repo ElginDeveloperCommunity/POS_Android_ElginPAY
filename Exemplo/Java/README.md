@@ -14,7 +14,7 @@ Se você tiver dúvidas sobre como testar o nosso exemplo, assista aos seguintes
 [Executando o Exemplo Elgin](#executando-o-exemplo-elgin)
 <br>
 ## Funcionalidade NFC-e
-[Funcionalidade NFC-e](#funcionalidade-nfc-e)
+[Funcionalidade NFC-e](#elgin-pay-nfc-e)
 <br>
 [Como testar o apk](#como-testar-o-apk)
 <br>
@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/78883867/157525608-385cef1a-9802-4efa-
 
 <hr>
 
-## Funcionalidade NFC-e
+## Elgin Pay NFC-e
 
 Essa funcionalidade permite emitir e imprimir notas NFC-e utilizando as bibliotecas da Daruma, especificamente a DarumaMobileFramework.
 
@@ -50,7 +50,8 @@ Para poder utilizar essa função, atualize o seu aplicativo para a última vers
 
 ### Como Testar o apk
 
-<img src="./01.jpeg" alt="Botão configurar" width="200">
+<img src="https://user-images.githubusercontent.com/78883867/167141273-f326e76a-810f-4cf3-9261-3543d46b3371.jpeg" alt="Botão configurar" title="Botão configurar" width="200">
+
 
 Deve ser feita a configuração da nota NFC-e a ser emitida com o botão, após a mensagem de sucesso o botão de envio ficará disponível.
 <br>
@@ -65,10 +66,10 @@ Deve ser feita a configuração da nota NFC-e a ser emitida com o botão, após 
 
 Logo após a configuração serão preenchidas as informações nas textboxes, conforme a imagem:
 <br>
-<img src="pos-configuracao.jpeg" alt="Dados da NFC-e configurados" title="Dados da NFC-e configurados" width="200">
+<img src="https://user-images.githubusercontent.com/78883867/167141399-06c729e0-6102-4ee4-a0ff-4fa68af454d3.jpeg" alt="Dados da NFC-e configurados" title="Dados da NFC-e configurados" width="200">
 
 ### Para utilizar em seu App essa funcionalidade
 
 Os dados para usar a função de NFC-e tem de ser pegos com a Sefaz de seu estado, e no código fonte inserir os seus dados:
 <br>
-<img src="./cod.jpeg" alt="Classe de configuração da NFC-e no app exemplo" title="Classe de configuração da NFC-e no app exemplo" width="500">
+<img src="https://user-images.githubusercontent.com/78883867/167141455-b5472345-4fce-4877-ad49-930570a20ff4.jpeg" alt="Classe de configuração da NFC-e no app exemplo" title="Classe de configuração da NFC-e no app exemplo" width="500">
