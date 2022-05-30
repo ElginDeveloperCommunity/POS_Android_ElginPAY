@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/78883867/157525608-385cef1a-9802-4efa-
 
 ## Elgin Pay NFC-e
 
-Essa funcionalidade permite emitir e imprimir notas NFC-e utilizando as bibliotecas da Daruma, especificamente a DarumaMobileFramework.
+Essa funcionalidade permite emitir e imprimir notas NFC-e utilizando as bibliotecas DMF, dll da ITFAST em parceria com a Elgin.
 
 Para poder utilizar essa função, atualize o seu aplicativo para a última versão.
 
