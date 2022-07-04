@@ -1,0 +1,236 @@
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Info} 		 Versão:  01.03.01
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Info} 		 Produto TEF configurado:  1
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Construído
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 senha: 
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{17/06/22 14:57:32}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 senha: 
+{17/06/22 14:57:32}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] API carregada com sucesso
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Debug} 		 log:  1
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{17/06/22 14:57:32}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Produto TEF configurado:  1
+{17/06/22 14:57:35}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{17/06/22 14:57:35}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Dados do arquivo lido:  "000-000 = CRT\n001-000 = 1\n002-000 = 123456\n003-000 = 400\n004-000 = 0\n999-999 = 0"
+{17/06/22 14:57:35}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+ "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{17/06/22 14:57:35}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+{17/06/22 14:57:35}{E1_TEFPAY_PASSIVO}{Info} 		 "[E1_Bridge_VO] {operacao: \"CRT\", idTransacao: 1, pdv: \"e1\", valorTotal: \"400\", tipoCartao: 0, tipoFinanciamento: 0, numParcelas: 0, nsu: \"\", dataHora: \"\"}"
+{17/06/22 14:57:36}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] INICIANDO OPERACAO E1_BRIDGE
+{17/06/22 14:57:36}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Json para criação do arquivo de status:  "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{17/06/22 14:57:36}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo status [ "C:/Cliente/Resp/IntPos.Sts" ]:  "000-000 = CRT\r\n001-000 = 1\r\n999-999 = 0"
+{17/06/22 14:57:36}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Janela travada no front
+{17/06/22 14:57:36}{E1_Bridge}{Info} 		 Entrada da função, IniciaVenda
+{17/06/22 14:57:36}{E1_Bridge}{Info} 		 Parâmetro(s), 1, e1, 400
+{17/06/22 14:57:36}{E1_Bridge}{Debug} 		 {"operation":1,"params":{"idTransacao":1,"pdv":"e1","valorTotal":400},"password":""}
+{17/06/22 14:57:36}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:57:36}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:57:36}{E1_Bridge}{Debug} 		 ACK
+{17/06/22 14:58:01}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:58:01}{E1_Bridge}{Info} 		 Resultado: 0
+{17/06/22 14:58:01}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] Status:  "[-2491] Operacao cancelada"
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] FIM DA OPERACAO E1_BRIDGE
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Info} 		 Tags para iterar:  55
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Formato SiTef:  "000-000 = CRT\r\n001-000 = 1\r\n009-000 = -2491\r\n010-001 = PROVEDOR_DESCONHECIDO\r\n018-000 = 0\r\n027-000 = null.null.null.13.null\r\n030-000 = Operacao cancelada\r\n150-000 = 13\r\n210-052 = e1\r\n375-000 = 0\r\n375-001 = Sucesso\r\n375-002 = false\r\n375-011 = false\r\n718-000 = 4648\r\n729-000 = false\r\n731-000 = CARTAO_DESCONHECIDO\r\n737-000 = VIA_NENHUMA\r\n999-999 = 0"
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Quantidade de bytes gravados no arquivo  "C:/Cliente/Resp/arquivo_tef.tmp" :  347
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo renomeado com sucesso para  "C:/Cliente/Resp/IntPos.001"
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] FINALIZANDO OPERACAO TEF
+{17/06/22 14:58:04}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{17/06/22 14:58:26}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Dados do arquivo lido:  "000-000 = CRT\n001-000 = 1\n002-000 = 123456\n003-000 = 400\n004-000 = 0\n999-999 = 0"
+{17/06/22 14:58:26}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+ "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{17/06/22 14:58:26}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+{17/06/22 14:58:26}{E1_TEFPAY_PASSIVO}{Info} 		 "[E1_Bridge_VO] {operacao: \"CRT\", idTransacao: 1, pdv: \"e1\", valorTotal: \"400\", tipoCartao: 0, tipoFinanciamento: 0, numParcelas: 0, nsu: \"\", dataHora: \"\"}"
+{17/06/22 14:58:27}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] INICIANDO OPERACAO E1_BRIDGE
+{17/06/22 14:58:27}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Json para criação do arquivo de status:  "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{17/06/22 14:58:27}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo status [ "C:/Cliente/Resp/IntPos.Sts" ]:  "000-000 = CRT\r\n001-000 = 1\r\n999-999 = 0"
+{17/06/22 14:58:27}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Janela travada no front
+{17/06/22 14:58:27}{E1_Bridge}{Info} 		 Entrada da função, IniciaVenda
+{17/06/22 14:58:27}{E1_Bridge}{Info} 		 Parâmetro(s), 1, e1, 400
+{17/06/22 14:58:27}{E1_Bridge}{Debug} 		 {"operation":1,"params":{"idTransacao":1,"pdv":"e1","valorTotal":400},"password":""}
+{17/06/22 14:58:27}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:58:27}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:58:27}{E1_Bridge}{Debug} 		 ACK
+{17/06/22 14:59:01}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{17/06/22 14:59:01}{E1_Bridge}{Info} 		 Resultado: 0
+{17/06/22 14:59:01}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] Status:  "[0] Transacao autorizada"
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] FIM DA OPERACAO E1_BRIDGE
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Info} 		 Tags para iterar:  55
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Formato SiTef:  "000-000 = CRT\r\n001-000 = 1\r\n003-000 = 000000000400\r\n004-000 = 986\r\n009-000 = 0\r\n010-000 = ELGINPAY\r\n010-001 = PROVEDOR_DESCONHECIDO\r\n012-000 = 21050\r\n013-000 = 005524\r\n018-000 = 0\r\n022-000 = 17/06/2022\r\n023-000 = 14:58:44\r\n027-000 = 0000138272.21050.00002464.13.ELGINPAY\r\n028-000 = 27\r\n029-001 = VIA ESTABELECIMENTO      17/jun/22 14:58\r\n029-002 = ELGIN PAGAME*ELGIN\r\n029-003 = CPF:14200166000166              PDC:4648\r\n029-004 = REF:21050        AUT:005524        EC:22\r\n029-005 = L-550209******7493    MASTERCARD CREDITO\r\n029-006 = AID:A0000000041010\r\n029-007 = ARQC:8B3CA76C3FFEE11E\r\n029-008 =          VENDA CREDITO A VISTA          \r\n029-009 = VALOR FINAL:                     R$ 4,00\r\n029-010 =                                         \r\n029-011 = \r\n029-012 = --------------------------------------\r\n029-013 = 4648 0000000022 PGREF:0000021050\r\n029-014 = NOME FANTASIA: ELGIN\r\n029-015 = CNPJ: 14.200.166/0001-66\r\n029-016 = VIA CLIENTE              17/jun/22 14:58\r\n029-017 = ELGIN PAGAME*ELGIN\r\n029-018 = CPF:14200166000166              PDC:4648\r\n029-019 = REF:21050        AUT:005524        EC:22\r\n029-020 = L-550209******7493            Mastercard\r\n029-021 =          VENDA CREDITO A VISTA          \r\n029-022 = VALOR FINAL:                     R$ 4,00\r\n029-023 = \r\n029-024 = --------------------------------------\r\n029-025 = 4648 0000000022 PGREF:0000021050\r\n029-026 = NOME FANTASIA: ELGIN\r\n029-027 = CNPJ: 14.200.166/0001-66\r\n030-000 = Transacao autorizada\r\n040-000 = MASTERCARD\r\n043-000 = 00002464\r\n047-000 = 00\r\n150-000 = 13\r\n210-052 = e1\r\n375-000 = 0\r\n375-001 = Sucesso\r\n375-002 = false\r\n375-003 = A0000000041010\r\n375-004 = 00000000000000053306\r\n375-008 = 64\r\n375-011 = false\r\n375-015 = 550209******7493\r\n712-000 = 12\r\n713-001 = VIA CLIENTE              17/jun/22 14:58\r\n713-002 = ELGIN PAGAME*ELGIN\r\n713-003 = CPF:14200166000166              PDC:4648\r\n713-004 = REF:21050        AUT:005524        EC:22\r\n713-005 = L-550209******7493            Mastercard\r\n713-006 =          VENDA CREDITO A VISTA          \r\n713-007 = VALOR FINAL:                     R$ 4,00\r\n713-008 = \r\n713-009 = --------------------------------------\r\n713-010 = 4648 0000000022 PGREF:0000021050\r\n713-011 = NOME FANTASIA: ELGIN\r\n713-012 = CNPJ: 14.200.166/0001-66\r\n714-000 = 15\r\n715-001 = VIA ESTABELECIMENTO      17/jun/22 14:58\r\n715-002 = ELGIN PAGAME*ELGIN\r\n715-003 = CPF:14200166000166              PDC:4648\r\n715-004 = REF:21050        AUT:005524        EC:22\r\n715-005 = L-550209******7493    MASTERCARD CREDITO\r\n715-006 = AID:A0000000041010\r\n715-007 = ARQC:8B3CA76C3FFEE11E\r\n715-008 =          VENDA CREDITO A VISTA          \r\n715-009 = VALOR FINAL:                     R$ 4,00\r\n715-010 =                                         \r\n715-011 = \r\n715-012 = --------------------------------------\r\n715-013 = 4648 0000000022 PGREF:0000021050\r\n715-014 = NOME FANTASIA: ELGIN\r\n715-015 = CNPJ: 14.200.166/0001-66\r\n718-000 = 4648\r\n729-000 = true\r\n731-000 = CARTAO_CREDITO\r\n737-000 = VIA_CLIENTE_E_ESTABELECIMENTO\r\n740-000 = 550209******7493\r\n741-000 =                           \r\n748-000 = MASTERCARD CREDITO\r\n999-999 = 0"
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Quantidade de bytes gravados no arquivo  "C:/Cliente/Resp/arquivo_tef.tmp" :  3096
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo renomeado com sucesso para  "C:/Cliente/Resp/IntPos.001"
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] FINALIZANDO OPERACAO TEF
+{17/06/22 14:59:04}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{17/06/22 14:59:12}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Instância destruída...
+{22/06/22 15:15:37}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{22/06/22 15:15:37}{E1_TEFPAY_PASSIVO}{Info} 		 Versão:  01.03.01
+{22/06/22 15:15:37}{E1_TEFPAY_PASSIVO}{Debug} 		 Uma instância já está aberta
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Info} 		 Versão:  01.03.01
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Info} 		 Produto TEF configurado:  1
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Construído
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 senha: 
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{22/06/22 15:19:06}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 senha: 
+{22/06/22 15:19:06}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] API carregada com sucesso
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Debug} 		 log:  1
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{22/06/22 15:19:06}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Produto TEF configurado:  1
+{22/06/22 15:19:07}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{22/06/22 15:19:11}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Dados do arquivo lido:  "000-000 = CRT\n001-000 = 1\n002-000 = 123456\n003-000 = 400\n004-000 = 0\n999-999 = 0"
+{22/06/22 15:19:11}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+ "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{22/06/22 15:19:11}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+{22/06/22 15:19:11}{E1_TEFPAY_PASSIVO}{Info} 		 "[E1_Bridge_VO] {operacao: \"CRT\", idTransacao: 1, pdv: \"e1\", valorTotal: \"400\", tipoCartao: 0, tipoFinanciamento: 0, numParcelas: 0, nsu: \"\", dataHora: \"\"}"
+{22/06/22 15:19:12}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] INICIANDO OPERACAO E1_BRIDGE
+{22/06/22 15:19:12}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Json para criação do arquivo de status:  "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{22/06/22 15:19:12}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo status [ "C:/Cliente/Resp/IntPos.Sts" ]:  "000-000 = CRT\r\n001-000 = 1\r\n999-999 = 0"
+{22/06/22 15:19:12}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Janela travada no front
+{22/06/22 15:19:12}{E1_Bridge}{Info} 		 Entrada da função, IniciaVenda
+{22/06/22 15:19:12}{E1_Bridge}{Info} 		 Parâmetro(s), 1, e1, 400
+{22/06/22 15:19:12}{E1_Bridge}{Debug} 		 {"operation":1,"params":{"idTransacao":1,"pdv":"e1","valorTotal":400},"password":""}
+{22/06/22 15:19:13}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{22/06/22 15:19:13}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{22/06/22 15:19:13}{E1_Bridge}{Debug} 		 ACK
+{22/06/22 15:20:03}{E1_Bridge}{Debug} 		 code: 0 ; contentType: String
+{22/06/22 15:20:03}{E1_Bridge}{Info} 		 Resultado: 0
+{22/06/22 15:20:03}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] Status:  "[0] Transacao autorizada"
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] FIM DA OPERACAO E1_BRIDGE
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Info} 		 Tags para iterar:  55
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Formato SiTef:  "000-000 = CRT\r\n001-000 = 1\r\n003-000 = 000000000400\r\n004-000 = 986\r\n009-000 = 0\r\n010-000 = ELGINPAY\r\n010-001 = PROVEDOR_DESCONHECIDO\r\n012-000 = 21455\r\n013-000 = 005536\r\n018-000 = 0\r\n022-000 = 22/06/2022\r\n023-000 = 15:19:44\r\n027-000 = 0000138274.21455.00002590.13.ELGINPAY\r\n028-000 = 27\r\n029-001 = VIA ESTABELECIMENTO      22/jun/22 15:19\r\n029-002 = ELGIN PAGAME*ELGIN\r\n029-003 = CPF:14200166000166              PDC:4648\r\n029-004 = REF:21455        AUT:005536        EC:22\r\n029-005 = L-550209******7493    MASTERCARD CREDITO\r\n029-006 = AID:A0000000041010\r\n029-007 = ARQC:44139F31BB9E0D57\r\n029-008 =          VENDA CREDITO A VISTA          \r\n029-009 = VALOR FINAL:                     R$ 4,00\r\n029-010 =                                         \r\n029-011 = \r\n029-012 = --------------------------------------\r\n029-013 = 4648 0000000022 PGREF:0000021455\r\n029-014 = NOME FANTASIA: ELGIN\r\n029-015 = CNPJ: 14.200.166/0001-66\r\n029-016 = VIA CLIENTE              22/jun/22 15:19\r\n029-017 = ELGIN PAGAME*ELGIN\r\n029-018 = CPF:14200166000166              PDC:4648\r\n029-019 = REF:21455        AUT:005536        EC:22\r\n029-020 = L-550209******7493            Mastercard\r\n029-021 =          VENDA CREDITO A VISTA          \r\n029-022 = VALOR FINAL:                     R$ 4,00\r\n029-023 = \r\n029-024 = --------------------------------------\r\n029-025 = 4648 0000000022 PGREF:0000021455\r\n029-026 = NOME FANTASIA: ELGIN\r\n029-027 = CNPJ: 14.200.166/0001-66\r\n030-000 = Transacao autorizada\r\n040-000 = MASTERCARD\r\n043-000 = 00002590\r\n047-000 = 00\r\n150-000 = 13\r\n210-052 = e1\r\n375-000 = 0\r\n375-001 = Sucesso\r\n375-002 = false\r\n375-003 = A0000000041010\r\n375-004 = 00000000000000053787\r\n375-008 = 64\r\n375-011 = false\r\n375-015 = 550209******7493\r\n712-000 = 12\r\n713-001 = VIA CLIENTE              22/jun/22 15:19\r\n713-002 = ELGIN PAGAME*ELGIN\r\n713-003 = CPF:14200166000166              PDC:4648\r\n713-004 = REF:21455        AUT:005536        EC:22\r\n713-005 = L-550209******7493            Mastercard\r\n713-006 =          VENDA CREDITO A VISTA          \r\n713-007 = VALOR FINAL:                     R$ 4,00\r\n713-008 = \r\n713-009 = --------------------------------------\r\n713-010 = 4648 0000000022 PGREF:0000021455\r\n713-011 = NOME FANTASIA: ELGIN\r\n713-012 = CNPJ: 14.200.166/0001-66\r\n714-000 = 15\r\n715-001 = VIA ESTABELECIMENTO      22/jun/22 15:19\r\n715-002 = ELGIN PAGAME*ELGIN\r\n715-003 = CPF:14200166000166              PDC:4648\r\n715-004 = REF:21455        AUT:005536        EC:22\r\n715-005 = L-550209******7493    MASTERCARD CREDITO\r\n715-006 = AID:A0000000041010\r\n715-007 = ARQC:44139F31BB9E0D57\r\n715-008 =          VENDA CREDITO A VISTA          \r\n715-009 = VALOR FINAL:                     R$ 4,00\r\n715-010 =                                         \r\n715-011 = \r\n715-012 = --------------------------------------\r\n715-013 = 4648 0000000022 PGREF:0000021455\r\n715-014 = NOME FANTASIA: ELGIN\r\n715-015 = CNPJ: 14.200.166/0001-66\r\n718-000 = 4648\r\n729-000 = true\r\n731-000 = CARTAO_CREDITO\r\n737-000 = VIA_CLIENTE_E_ESTABELECIMENTO\r\n740-000 = 550209******7493\r\n741-000 =                           \r\n748-000 = MASTERCARD CREDITO\r\n999-999 = 0"
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Quantidade de bytes gravados no arquivo  "C:/Cliente/Resp/arquivo_tef.tmp" :  3096
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo renomeado com sucesso para  "C:/Cliente/Resp/IntPos.001"
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] FINALIZANDO OPERACAO TEF
+{22/06/22 15:20:06}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Info} 		 Versão:  01.03.01
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Info} 		 Produto TEF configurado:  1
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Construído
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 senha: 
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Caminho para ler as configs: e1_bridge_configs.json
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Bytes lidos: 165
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 Arquivo de configuracao lido com sucesso
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), 192.168.15.31, 3000, 3001
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), -1
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 {"e1_bridge_code":-1205,"e1_bridge_msg":"Timeout informado não está entre 1 e 10 minutos"}
+{24/06/22 15:08:59}{E1_Bridge}{Info} 		 Parâmetro(s), false
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 ipTerminal: 192.168.15.31
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 portaTransacao: 3000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 portaStatus: 3001
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 timeoutResposta: 180000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 timeoutSocket: 4000
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 senha: 
+{24/06/22 15:08:59}{E1_Bridge}{Debug} 		 senhaHabilitada: false
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] API carregada com sucesso
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Debug} 		 log:  1
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Debug} 		 Diretórios já existentes
+{24/06/22 15:08:59}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Produto TEF configurado:  1
+{24/06/22 15:09:00}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{24/06/22 15:09:28}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Dados do arquivo lido:  "000-000 = CRT\n001-000 = 1\n002-000 = 123456\n003-000 = 400\n004-000 = 0\n999-999 = 0"
+{24/06/22 15:09:28}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+ "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{24/06/22 15:09:28}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+{24/06/22 15:09:28}{E1_TEFPAY_PASSIVO}{Info} 		 "[E1_Bridge_VO] {operacao: \"CRT\", idTransacao: 1, pdv: \"e1\", valorTotal: \"400\", tipoCartao: 0, tipoFinanciamento: 0, numParcelas: 0, nsu: \"\", dataHora: \"\"}"
+{24/06/22 15:09:29}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] INICIANDO OPERACAO E1_BRIDGE
+{24/06/22 15:09:29}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Json para criação do arquivo de status:  "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{24/06/22 15:09:29}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo status [ "C:/Cliente/Resp/IntPos.Sts" ]:  "000-000 = CRT\r\n001-000 = 1\r\n999-999 = 0"
+{24/06/22 15:09:29}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Janela travada no front
+{24/06/22 15:09:29}{E1_Bridge}{Info} 		 Entrada da função, IniciaVenda
+{24/06/22 15:09:29}{E1_Bridge}{Info} 		 Parâmetro(s), 1, e1, 400
+{24/06/22 15:09:29}{E1_Bridge}{Debug} 		 {"operation":1,"params":{"idTransacao":1,"pdv":"e1","valorTotal":400},"password":""}
+{24/06/22 15:09:33}{E1_Bridge}{Error} 		 5
+{24/06/22 15:09:33}{E1_Bridge}{Error} 		 Socket operation timed out
+{24/06/22 15:09:33}{E1_Bridge}{Error} 		 Resultado: -1232
+{24/06/22 15:09:33}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] Status:  "[-1232] Erro ao se conectar com o serviço de status"
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] FIM DA OPERACAO E1_BRIDGE
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Info} 		 Tags para iterar:  55
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Formato SiTef:  "000-000 = CRT\r\n001-000 = 1\r\n009-000 = -1232\r\n030-000 = Erro ao se conectar com o serviço de status\r\n210-052 = e1\r\n375-000 = -1232\r\n375-001 = Erro ao se conectar com o serviço de status\r\n999-999 = 0"
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Quantidade de bytes gravados no arquivo  "C:/Cliente/Resp/arquivo_tef.tmp" :  199
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo renomeado com sucesso para  "C:/Cliente/Resp/IntPos.001"
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] FINALIZANDO OPERACAO TEF
+{24/06/22 15:09:36}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
+{24/06/22 15:11:44}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Dados do arquivo lido:  "000-000 = CRT\n001-000 = 1\n002-000 = 123456\n003-000 = 400\n004-000 = 0\n999-999 = 0"
+{24/06/22 15:11:44}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+ "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{24/06/22 15:11:44}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] setJsonConfigs
+{24/06/22 15:11:44}{E1_TEFPAY_PASSIVO}{Info} 		 "[E1_Bridge_VO] {operacao: \"CRT\", idTransacao: 1, pdv: \"e1\", valorTotal: \"400\", tipoCartao: 0, tipoFinanciamento: 0, numParcelas: 0, nsu: \"\", dataHora: \"\"}"
+{24/06/22 15:11:45}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] INICIANDO OPERACAO E1_BRIDGE
+{24/06/22 15:11:45}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Json para criação do arquivo de status:  "{\"header\":\"CRT\",\"operacao\":0,\"parametros\":{\"documento\":\"123456\",\"identificacao\":\"1\",\"moeda\":\"0\",\"registro_final\":\"0\",\"valor\":\"400\"}}"
+{24/06/22 15:11:45}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo status [ "C:/Cliente/Resp/IntPos.Sts" ]:  "000-000 = CRT\r\n001-000 = 1\r\n999-999 = 0"
+{24/06/22 15:11:45}{E1_TEFPAY_PASSIVO}{Info} 		 [Base_Controller] Janela travada no front
+{24/06/22 15:11:45}{E1_Bridge}{Info} 		 Entrada da função, IniciaVenda
+{24/06/22 15:11:45}{E1_Bridge}{Info} 		 Parâmetro(s), 1, e1, 400
+{24/06/22 15:11:45}{E1_Bridge}{Debug} 		 {"operation":1,"params":{"idTransacao":1,"pdv":"e1","valorTotal":400},"password":""}
+{24/06/22 15:11:49}{E1_Bridge}{Error} 		 5
+{24/06/22 15:11:49}{E1_Bridge}{Error} 		 Socket operation timed out
+{24/06/22 15:11:49}{E1_Bridge}{Error} 		 Resultado: -1232
+{24/06/22 15:11:49}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] Status:  "[-1232] Erro ao se conectar com o serviço de status"
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Info} 		 [E1_Bridge_Controller] FIM DA OPERACAO E1_BRIDGE
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Info} 		 Tags para iterar:  55
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Formato SiTef:  "000-000 = CRT\r\n001-000 = 1\r\n009-000 = -1232\r\n030-000 = Erro ao se conectar com o serviço de status\r\n210-052 = e1\r\n375-000 = -1232\r\n375-001 = Erro ao se conectar com o serviço de status\r\n999-999 = 0"
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Quantidade de bytes gravados no arquivo  "C:/Cliente/Resp/arquivo_tef.tmp" :  199
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] Arquivo renomeado com sucesso para  "C:/Cliente/Resp/IntPos.001"
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Info} 		 [MonitoraDiretorio] FINALIZANDO OPERACAO TEF
+{24/06/22 15:11:52}{E1_TEFPAY_PASSIVO}{Debug} 		 [MonitoraDiretorio] Monitoramento iniciando em:  "C:/Cliente/Req"
