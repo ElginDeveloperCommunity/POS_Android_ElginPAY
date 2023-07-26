@@ -1,0 +1,39 @@
+O E1_Bridge/Server fornece duas portas de comunicação:
+
+#1 - Porta de Status (default 3001), usada basicamente para perguntar o status do terminal;
+#2 - Porta de Transação (default 3000), onde os payloads gerados pelo E1_Bridge/Client são
+     enviados e processados.
+
+Ambas são portas TCP, dessa forma, é necessário haver um Socket TCP para cada uma.
+Mais do que isso, ambos os sockets precisam rodar simultaneamente (em threads a parte), já que
+o E1_Bridge/Client os consome no momento de enviar o payload ao E1_Bridge/Server.
+
+--------------------------------------------------
+
+OBSERVAÇÕES:
+
+#1 - O "Clone" do E1_Bridge/Server precisa retornar o payload (a) sempre que o E1_Bridge/Client
+     se conectar na porta de status; qualquer outro payload resultará em erro no Client.
+
+payload (a):
+{
+	"code": 0,
+	"content": "",
+	"is_special_operation": false
+}
+
+#2 - O "Clone" do E1_Bridge/Server precisa retornar o payload (b) sempre que receber (ler) o payload
+     enviado pelo E1_Bridge/Client na porta de transação; qualquer outro payload resultará em erro
+     no Client.
+
+payload (b):
+{
+	"code": 0,
+	"content": "ACK",
+	"is_special_operation": false
+}
+
+#3 - Por fim, a partir desse ponto, o "Clone" do E1_Bridge/Server pode validar o payload recebido
+     do E1_Bridge/Client e efetuar o processamento da transação; em até 3 minutos (ou o tempo de
+     timeout configurado no Client) a resposta final (dentro do molde descrito em 'protocolo.txt')
+     precisa ser devolvida ao Client, do contrário haverá um erro de timeout no Client.

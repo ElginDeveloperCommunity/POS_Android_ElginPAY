@@ -1,0 +1,83 @@
+PAYLOADS GERADOS NAS FUNÇÕES DE PAGAMENTO DO E1_BRIDGE/CLIENT (WIN / LIN / AND)
+===============================================================================
+Importante entender a documentação: https://elgindevelopercommunity.github.io/group__g51.html
+
+const char* IniciaVenda(int idTransacao, const char* pdv, const char* valorTotal);
+{
+	"operation": 1,
+	"params": {
+		"idTransacao": idTransacao,
+		"pdv": pdv,
+		"valorTotal": valorTotal.toInt64()
+	}
+}
+
+const char* IniciaVendaDebito(int idTransacao, const char* pdv, const char* valorTotal);
+{
+	"operation": 1,
+	"params": {
+		"idTransacao": idTransacao,
+		"pdv": pdv,
+		"valorTotal": valorTotal.toInt64(),
+		"tipoCartao": 2
+	}
+}
+
+const char* IniciaVendaCredito(int idTransacao, const char* pdv, const char* valorTotal, int tipoFinanciamento, int numParcelas);
+{
+	"operation": 1,
+	"params": {
+		"idTransacao": idTransacao,
+		"pdv": pdv,
+		"valorTotal": valorTotal.toInt64(),
+		"tipoCartao": 1,
+		"tipoFinanciamento": tipoFinanciamento,
+		"numParcelas": numParcelas
+	}
+}
+
+const char* IniciaCancelamentoVenda(int idTransacao, const char* pdv, const char* valorTotal, const char* dataHora, const char* nsu);
+{
+	"operation": 4,
+	"params": {
+		"idTransacao": idTransacao,
+		"pdv": pdv,
+		"valorTotal": valorTotal.toInt64(),
+		"dataHora": dataHora, // no formato dd/MM/yyyy HH:mm:ss (por ex. 18/10/2021 16:25:47)
+		"nsu": nsu
+	}
+}
+
+const char* IniciaOperacaoAdministrativa(int idTransacao, const char* pdv, int operacao);
+
+int operation = -1;
+switch (operacao) {
+case 0: operation = 2; break;	// Menu ADM
+case 1: operation = 15; break;	// Instalacao
+case 2: operation = 23; break;	// Configuracao
+case 3: operation = 24; break;	// Manutencao
+case 4: operation = 19; break;	// Teste de comunicacao
+case 5: operation = 16; break;	// Reimpressao
+default: return; // Operacao invalida
+}
+
+{
+	"operation": operation,
+	"params": {
+		"idTransacao": idTransacao,
+		"pdv": pdv
+	}
+}
+
+PAYLOAD DE RESPOSTA DEVOLVIDO PELO E1_BRIDGE/SERVER (ANDROID)
+=============================================================
+O E1_Bridge/Server retorna um JSON padronizado no seguinte formato:
+{
+	"code": 0, // 0 = sucesso; valores negativos = erro
+	"content": "payload de resposta da transacao em formato string ou mensagem de erro", // (**)
+	"is_special_operation": false
+}
+
+(**) Caso o E1_Bridge/Server tenha se comunicado com sucesso com o ElginPay será retornado um payload
+com as chaves de resposta da transação em formato string (em outras palavras, um payload_json.stringfy()).
+Tais chaves podem ser consultadas nesta documentação: https://elgindevelopercommunity.github.io/group__g120.html
